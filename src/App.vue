@@ -2,7 +2,8 @@
   <div id="app">
     <img src="./assets/logo.png">
     <div>
-      <el-button @click="startHacking">Start</el-button>
+      <el-button type="primary" @click="startHacking">Start</el-button>
+      <el-button>Cancel</el-button>
     </div>
   </div>
 </template>
